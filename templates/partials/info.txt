@@ -1,0 +1,5 @@
+partial can use throughout the application to render the things
+once created partial can use in any hbs fie as neede
+syntax:--
+             {{>partialname}}
+example:---  {{>header}}              
