@@ -10,7 +10,7 @@ const forcast=(latitude,longitude,callback)=>{
             callback('Unable to find location',undefined)
         }else{
             callback(undefined,
-             body.current.weather_descriptions[0] +' , It is Currently '+ body.current.temperature +' degree Temperature and '+ body.current.precip +' percent of rain'
+             body.current.weather_descriptions[0] +' , It is Currently '+ body.current.temperature +' degree Temperature and '+ body.current.precip +' percent of rain, Observation time is '+body.current.observation_time
         )
         }
     })
